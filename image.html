@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Google Image Search</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="nav-links">
+        <a href="index.html">Google Search</a>
+    </div>
+
+    <div class="search-container">
+        <h1 class="logo">Google<span style="font-size: 20px; color: #b4a7af; font-weight: normal; vertical-align: bottom;"> images</span></h1>
+        
+        <form action="https://google.com/search" method="GET">
+            <input type="hidden" name="tbm" value="isch">
+            
+            <div class="search-input-area">
+                <input type="text" name="q" required>
+            </div>
+            <div class="buttons-area">
+                <input type="submit" value="Image Search">
+            </div>
+        </form>
+    </div>
+
+</body>
+</html>
